@@ -1,0 +1,12 @@
+ #btn-info{
+    border: 1px;
+    background-color: #c46e6e;
+ }
+ .details{
+    display: none;
+
+ }
+ div{
+    display: block;
+    width: 400px;
+ }

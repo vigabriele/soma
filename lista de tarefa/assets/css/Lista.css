@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.content-center .text-center{
+   text-align: center;
+}
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+.content-center input{
+    border-bottom-color: #CCC;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+
+}
+.content-center input:focus{
+    border-bottom-color: rgb(10, 136, 145);
+
+}
+.content-center button{
+    background-color: rgb(18, 133, 141);
+    color: aliceblue;
+}
+.content-center button:hover{
+    background-color: rgb(15, 151, 133);
+    cursor: pointer;
+}
+.content-center button:active{
+    background-color: #09555f;
+}
+header h1{
+    font-size: 1em;
+    text-align: center;
+}
+.todo li{
+    padding: 10px;
+    border-bottom: #CCC 1px solid;
+}
+.todo li input{
+    width: initial;
+    margin-right: 10px;
+}
+.todo li.complete{
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+.todo button{
+    width: initial;
+    color: aliceblue;
+    background-color: #056470;
+    float: right;
+    min-width: 10px;
+}
+#new-task{
+    width: 100%;
+    padding: 10px;
+} 
